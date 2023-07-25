@@ -111,7 +111,6 @@ public class YoloV5Classifier implements Classifier {
             d.tfliteModel = Utils.loadModelFile(assetManager, modelFilename);
             d.tfLite = new Interpreter(d.tfliteModel, options);
         } catch (Exception e) {
-            throw new RuntimeException(e);
         }
 
         d.isModelQuantized = isQuantized;
