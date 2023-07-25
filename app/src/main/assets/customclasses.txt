@@ -1,0 +1,6 @@
+caption
+figure
+list
+section
+table
+text
